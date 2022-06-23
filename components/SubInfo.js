@@ -66,10 +66,10 @@ export const EndDate = () => {
       style={{
         backgroundColor: COLORS.white,
         width: 100,
-        height: 45,
+        height: 60,
         marginHorizontal: SIZES.base,
         marginBottom: SIZES.base,
-        padding: SIZES.font,
+        paddingVertical: SIZES.extraLarge,
         justifyContent: "center",
         alignItems: "center",
         borderRadius: SIZES.base,
@@ -98,8 +98,8 @@ export const SubInfo = () => {
         display: "flex",
         flexDirection: "row",
         justifyContent: "space-between",
-        marginTop: "-6%",
-        // padding: -SIZES.large,
+        marginTop: "-7%",
+        paddingHorizontal: SIZES.base,
       }}
     >
       <People />
