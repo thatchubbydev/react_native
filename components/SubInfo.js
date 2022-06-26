@@ -78,7 +78,7 @@ export const EndDate = () => {
       <Text
         style={{
           fontFamily: FONTS.regular,
-          fontSize: SIZES.base * 1.8,
+          fontSize: SIZES.base * 1.7,
           color: COLORS.gray,
         }}
       >
