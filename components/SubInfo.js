@@ -65,11 +65,11 @@ export const EndDate = () => {
     <View
       style={{
         backgroundColor: COLORS.white,
-        width: 100,
-        height: 60,
+        width: 110,
+        height: 70,
         marginHorizontal: SIZES.base,
         marginBottom: SIZES.base,
-        paddingVertical: SIZES.extraLarge,
+        paddingBottom: SIZES.base,
         justifyContent: "center",
         alignItems: "center",
         borderRadius: SIZES.base,
@@ -78,13 +78,13 @@ export const EndDate = () => {
       <Text
         style={{
           fontFamily: FONTS.regular,
-          fontSize: SIZES.font,
+          fontSize: SIZES.base * 1.8,
           color: COLORS.gray,
         }}
       >
         Ending in
       </Text>
-      <Text style={{ fontFamily: FONTS.bold, fontSize: SIZES.large }}>
+      <Text style={{ fontFamily: FONTS.semiBold, fontSize: SIZES.font * 1.3 }}>
         12h 30m
       </Text>
     </View>

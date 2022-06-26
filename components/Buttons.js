@@ -34,11 +34,11 @@ export const RectButton = ({ handlePress }) => {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        width: "35%",
+        width: "40%",
         height: 45,
         borderRadius: SIZES.extraLarge,
         backgroundColor: COLORS.primary,
-        paddingVertical: SIZES.base,
+        // paddingTop: SIZES.base,
       }}
       onPress={handlePress}
     >
@@ -47,7 +47,7 @@ export const RectButton = ({ handlePress }) => {
           color: COLORS.white,
           fontWeight: "600",
           fontSize: SIZES.medium,
-          lineHeight: 10,
+          // lineHeight: 10,
         }}
       >
         Place a bid

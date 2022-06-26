@@ -80,7 +80,8 @@ const HomeHeader = ({ onSearch }) => {
       <View
         style={{
           backgroundColor: "gray",
-          width: "80%",
+          width: "95%",
+          flex: 1,
           borderRadius: SIZES.font,
           marginLeft: SIZES.font,
           marginVertical: SIZES.medium,
